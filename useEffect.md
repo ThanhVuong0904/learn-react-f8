@@ -17,3 +17,19 @@
 * Callback sẽ được gọi khi component mounted
 * Clean up function luôn được gọi trước khi component unmounted
 * Clean up function luôn được gọi trước khi callback được gọi (trừ lần mounted)
+```
+export default function Content() {
+  const [count, setCount] = useState(1)
+  useEffect(() => {
+    console.log(`Mounted or Re-render lần ${count}`);
+
+    return () => console.log(`Clean up lần ${count}`);
+  }, [count])
+  return (
+    <div>
+      <h1>{count}</h1>
+      <button onClick={() => setCount(count + 1)}>Click me!</button>
+    </div>
+  )
+}
+```
