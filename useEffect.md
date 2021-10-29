@@ -1,6 +1,7 @@
 <h1>Use Effect Hook</h1>
 
  <h3>1. useEffect(callback)</h3>
+ 
 * Gọi callback mỗi khi component re-render
 * Gọi callback sau khi component thêm element vào DOM
 
