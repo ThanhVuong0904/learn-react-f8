@@ -1,4 +1,4 @@
-<h1>1. useEffect(callback) <h1> 
+<h1>1. useEffect(callback) </h1> 
   * Gọi callback mỗi khi component re-render
   * Gọi callback sau khi component thêm element vào DOM
 
