@@ -17,7 +17,7 @@
 * Callback sẽ được gọi khi component mounted
 * Clean up function luôn được gọi trước khi component unmounted
 * Clean up function luôn được gọi trước khi callback được gọi (trừ lần mounted)
-```
+```javascript
 export default function Content() {
   const [count, setCount] = useState(1)
   useEffect(() => {
