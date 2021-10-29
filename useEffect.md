@@ -1,7 +1,7 @@
 <h1>Use Effect Hook</h1>
- 1. useEffect(callback)  
-  * Gọi callback mỗi khi component re-render
-  * Gọi callback sau khi component thêm element vào DOM
+ 1. useEffect(callback)
+* Gọi callback mỗi khi component re-render
+* Gọi callback sau khi component thêm element vào DOM
 
 2. useEffect(callback, [])
   * Chỉ gọi callback 1 LẦN sau khi component mounted (gọi API 1 lần)
