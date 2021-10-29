@@ -19,6 +19,7 @@
 * Clean up function luôn được gọi trước khi callback được gọi (trừ lần mounted)
 ```javascript
 export default function Content() {
+//Clean up function luôn được gọi trước khi callback được gọi (trừ lần mounted)
   const [count, setCount] = useState(1)
   useEffect(() => {
     console.log(`Mounted or Re-render lần ${count}`);
@@ -33,3 +34,5 @@ export default function Content() {
   )
 }
 ```
+![image](https://user-images.githubusercontent.com/68543789/139404168-64aa2a01-cb9c-4313-9a09-4b101a577011.png)
+
