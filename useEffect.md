@@ -1,5 +1,5 @@
 1. useEffect(callback)  
-  Gọi callback mỗi khi component re-render
+  <space>Gọi callback mỗi khi component re-render<space>
   Gọi callback sau khi component thêm element vào DOM
 
 2. useEffect(callback, [])
