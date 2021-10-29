@@ -1,5 +1,4 @@
-1. useEffect(callback)
-  Gọi callback mỗi khi component re-render
+1. useEffect(callback)  Gọi callback mỗi khi component re-render
   Gọi callback sau khi component thêm element vào DOM
 
 2. useEffect(callback, [])
