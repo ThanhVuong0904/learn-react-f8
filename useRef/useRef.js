@@ -12,10 +12,18 @@ function App() {
     //set lại state thì component render lại
     //render lại thì nó set lại timerID là undefine
     //Cho nên handleStop ko tác dụng 
+    
     const prevCount = useRef()
+    const h1Ref = useRef()
     useEffect(() => {
         prevCount.current = count
     }, [count])
+    
+    useEffect(() => {
+        const rect = h1Ref.current.getBoundingClientRect()
+        console.log(rect);
+    })
+    
     const handleStart = () => {
     timerID.current = setInterval(() => {
         setCount(prevCount => prevCount - 1)
