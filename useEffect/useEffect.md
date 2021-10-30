@@ -2,14 +2,14 @@
 
 <h3>Những kiến thức cần nắm trước khi học useEffect</h3>
 
-Events: Add/Remove listenr
-Observer pattern: Subscribe, Unsubscribe
-Closure
-Timers: setTimeOut, setInterval, clearTimeOut, clearInterval
-useState
-Mounted/Unmounted
-Toán tử so sánh ===
-Call API
+*Events: Add/Remove listenr
+*Observer pattern: Subscribe, Unsubscribe
+*Closure
+*Timers: setTimeOut, setInterval, clearTimeOut, clearInterval
+*useState
+*Mounted/Unmounted
+*Toán tử so sánh ===
+*Call API
 
  <h3>1. useEffect(callback)</h3>
  
