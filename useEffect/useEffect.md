@@ -1,5 +1,7 @@
 <h1>Use Effect Hook</h1>
 
+<h2>Dùng khi muốn thực hiện side effects</h2>
+
 <h3>Những kiến thức cần nắm trước khi học useEffect</h3>
 
 * Events: Add/Remove listenr
