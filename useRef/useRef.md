@@ -9,5 +9,6 @@
  ```
 <br>
 Hàm này sẽ trả về 1 object có properties tên là **current**
+
 ![image](https://user-images.githubusercontent.com/68543789/139522158-3e054fb1-6ea7-4e75-b9cf-08a47d3a6448.png)
 
